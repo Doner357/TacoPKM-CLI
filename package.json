@@ -1,0 +1,40 @@
+{
+  "name": "tacopkm",
+  "version": "0.2.2",
+  "description": "Taco Package Manager CLI for a blockchain-based library system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tpkm": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "abi/"
+  ],
+  "keywords": [
+    "blockchain",
+    "package-manager",
+    "ipfs",
+    "cli",
+    "taco"
+  ],
+  "author": "Doner357",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^13.1.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.5",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^8.2.4",
+    "ipfs-http-client": "^56.0.3",
+    "ora": "^5.4.1",
+    "semver": "^7.7.1",
+    "tar-fs": "^3.0.8"
+  }
+}
