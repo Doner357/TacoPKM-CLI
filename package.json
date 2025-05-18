@@ -1,6 +1,6 @@
 {
   "name": "tacopkm",
-  "version": "0.2.2",
+  "version": "0.1.0",
   "description": "Taco Package Manager CLI for a blockchain-based library system.",
   "main": "index.js",
   "scripts": {
