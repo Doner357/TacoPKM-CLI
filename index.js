@@ -806,7 +806,7 @@ function getRevertReason(error) {
 program
     .name('tpkm')
     .description('Taco Package Manager CLI - A decentralized package manager using IPFS and Ethereum.')
-    .version('0.1.0'); // Update this version as the TPKM tool evolves.
+    .version('0.1.1'); // Update this version as the TPKM tool evolves.
 
 // --- Config Subcommands (tpkm config ...) ---
 // Manages network configuration profiles stored in ~/.tacopkm/networks.json.
@@ -1442,7 +1442,7 @@ program
                     const versions = await contractReadOnly.getVersionNumbers(libraryName);
                     if (versions && versions.length > 0) {
                         // Sort versions semantically in descending order (newest first).
-                        const sortedVersions = versions.sort(semver.rcompare);
+                        const sortedVersions = [...versions].sort(semver.rcompare);
                         versionSpinner.succeed(chalk.green(`Found ${versions.length} published version(s).`));
 
                         console.log(chalk.cyan.bold(`\n--- Published Versions (${versions.length}) ---`));

@@ -2,7 +2,7 @@
 
 TacoPKM CLI is the command-line interface for [TacoPKM](https://github.com/Doner357/TacoPKM/tree/license-fee), a decentralized package manager proof-of-concept. It utilizes blockchain technology for library metadata and version control, and IPFS for distributed artifact storage. This tool allows users to register, publish, install, and manage software libraries in a transparent and resilient manner by interacting with a deployed `LibraryRegistry` smart contract.
 
-**CLI Version: 0.1.0**
+**CLI Version: 0.1.1**
 
 ## Table of Contents
 
